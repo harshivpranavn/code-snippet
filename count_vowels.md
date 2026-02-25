@@ -1,5 +1,3 @@
-Count Vowel
-
 import java.util.*;
 
 class Main {
