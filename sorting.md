@@ -6,12 +6,10 @@ class Main {
         System.out.print("Enter n: ");
         int n = sc.nextInt();
         int[] arr = new int[n];
-        
         for(int i=0;i<n;i++){
             System.out.print("Enter val: ");
             arr[i] = sc.nextInt();
         }
-        
         for(int i=0; i<n; i++){
             for(int j=i+1; j<n; j++){
                 int temp = 0;
@@ -21,8 +19,7 @@ class Main {
                     arr[j] = temp;
                 }
             }
-        }
-        
+        }        
         for(int i=0;i<n;i++){
             System.out.print(arr[i]);
         }
